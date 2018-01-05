@@ -279,8 +279,7 @@
                     "type": "Select",
                     "options": [
                         "BEST",
-                        "NEWEST",
-                        "OLDEST"
+                        "NEWEST"
                     ],
                     "info": "Specifies an ordering for assets. Defaults to BEST, which ranks assets based on a combination of popularity and other features.",
                     "required": false
