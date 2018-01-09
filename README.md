@@ -85,8 +85,7 @@ Lists assets authored by the given user. Only the value 'me', representing the c
 | pageToken  | String| Specifies a continuation token from a previous search whose results were split into multiple pages. To get the next page, submit the same request specifying the value from nextPageToken.
 
 ## Poly.getUsersLikedAssetsList
-Lists assets authored by the given user. Only the value 'me', representing the currently-authenticated user, is supported. May include assets with an access level of PRIVATE or UNLISTED and assets which are All Rights Reserved for the currently-authenticated user.
-
+Lists assets that the user has liked. Only the value 'me', representing the currently-authenticated user, is supported. May include assets with an access level of UNLISTED.
 | Field      | Type  | Description
 |------------|-------|----------
 | accessToken| String| Access Token. Use getAccessToken to get it.

@@ -463,7 +463,7 @@
         },
         {
             "name": "getUsersLikedAssetsList",
-            "description": "Lists assets authored by the given user. Only the value 'me', representing the currently-authenticated user, is supported. May include assets with an access level of PRIVATE or UNLISTED and assets which are All Rights Reserved for the currently-authenticated user.",
+            "description": "Lists assets that the user has liked. Only the value 'me', representing the currently-authenticated user, is supported. May include assets with an access level of UNLISTED.",
             "args": [
                 {
                     "name": "accessToken",
