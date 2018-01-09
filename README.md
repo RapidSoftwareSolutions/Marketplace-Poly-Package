@@ -86,6 +86,7 @@ Lists assets authored by the given user. Only the value 'me', representing the c
 
 ## Poly.getUsersLikedAssetsList
 Lists assets that the user has liked. Only the value 'me', representing the currently-authenticated user, is supported. May include assets with an access level of UNLISTED.
+
 | Field      | Type  | Description
 |------------|-------|----------
 | accessToken| String| Access Token. Use getAccessToken to get it.
